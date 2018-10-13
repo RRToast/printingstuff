@@ -26,9 +26,9 @@ siehe Bild
 
 ### 2. a)
 
-π<sub>Stadt</sub> ((((σ<sub></sub> (Waren)) ⋈<sub></sub> (Einzelbestellungen)) ⋈<sub></sub> (Bestellungen)) ⋈<sub></sub> (Kunden))
+π<sub>Stadt</sub> ((((σ<sub>Warenname="Muttern"</sub> (Waren)) ⋈<sub>Warennr</sub> (Einzelbestellungen)) ⋈<sub>Bestellnr</sub> (Bestellungen)) ⋈<sub>Kundennr</sub> (Kunden))
 
-Ergebnis: Rosenheim & Ulm & UNBEKANNT(?)
+Ergebnis: Rosenheim & Ulm
 
 ### 2. b)
 
