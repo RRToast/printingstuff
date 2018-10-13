@@ -24,45 +24,34 @@ mögliche Probleme daraus:
 
 siehe Bild
 
-testing super script  
-
-ABC<sup>bla-super</sup>ABC  
-
-testing sub script  
-
-ABC<sub>bal-subber</sub>ABC
-
 ### 2. a)
-```
-π               ((((σ               (Waren)) ⋈               (Einzelbestellungen)) ⋈               (Bestellungen)) ⋈               (Kunden))
-```
+
+π<sub>Stadt</sub> ((((σ<sub></sub> (Waren)) ⋈<sub></sub> (Einzelbestellungen)) ⋈<sub></sub> (Bestellungen)) ⋈<sub></sub> (Kunden))
+
 Ergebnis: Rosenheim & Ulm & UNBEKANNT(?)
 
 ### 2. b)
-```
-π               (σ               (BESTELLUNGEN) ⋈               (EINZELBESTELLUNGEN))
-```
+
+π<sub>Warennr</sub> (σ<sub>Kundennr="C5"</sub> (BESTELLUNGEN) ⋈<sub>Bestellnr</sub> (EINZELBESTELLUNGEN))
+
 Ergebnis: S1
 
 ### 2. c)
 
-```
-π               (σ               (EINZELBESTELLUNGEN) ⋈               (WAREN))
-```
+π<sub>Waren</sub> (σ<sub>Menge > 150</sub> (EINZELBESTELLUNGEN) ⋈<sub>Warennr</sub> (WAREN))
+
 Ergebnis: Schrauben & Nägel
 
 ### 2. d)
 
-```
-π               (σ               (KUNDEN) ⋈               (BESTELLUNGEN))
-```
+π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier" \bigcup Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub> (BESTELLUNGEN))
+
 Ergebnis: O1 & O2
 
 ### 2. e)
 
-```
-π               (((σ               (KUNDEN) ⋈_Kundennr_ (BESTELLUNGEN)) ⋈               (EINZELBESTELLUNGEN)) ⋈               (WAREN))
-```
+π<sub>Warenname</sub> (((σ<sub>Kundenname="Meier" \bigcup Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub>  (BESTELLUNGEN)) ⋈<sub>Bestellnr</sub> (EINZELBESTELLUNGEN)) ⋈<sub>Warennr</sub> (WAREN))
+
 Ergebnis: Muttern, Nägel & Schrauben
 
 ### 3.
