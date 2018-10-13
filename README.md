@@ -24,6 +24,14 @@ mögliche Probleme daraus:
 
 siehe Bild
 
+testing super script  
+
+ABC<sup>bla-super</sup>ABC  
+
+testing sub script  
+
+ABC<sub>bal-subber</sub>ABC
+
 ### 2. a)
 ```
 π               ((((σ               (Waren)) ⋈               (Einzelbestellungen)) ⋈               (Bestellungen)) ⋈               (Kunden))
