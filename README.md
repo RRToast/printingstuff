@@ -44,13 +44,13 @@ Ergebnis: Schrauben & Nägel
 
 ### 2. d)
 
-π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier" \bigcup Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub> (BESTELLUNGEN))
+π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier" ⋃ Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub> (BESTELLUNGEN))
 
 Ergebnis: O1 & O2
 
 ### 2. e)
 
-π<sub>Warenname</sub> (((σ<sub>Kundenname="Meier" \bigcup Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub>  (BESTELLUNGEN)) ⋈<sub>Bestellnr</sub> (EINZELBESTELLUNGEN)) ⋈<sub>Warennr</sub> (WAREN))
+π<sub>Warenname</sub> (((σ<sub>Kundenname="Meier" ⋃ Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub>  (BESTELLUNGEN)) ⋈<sub>Bestellnr</sub> (EINZELBESTELLUNGEN)) ⋈<sub>Warennr</sub> (WAREN))
 
 Ergebnis: Muttern, Nägel & Schrauben
 
