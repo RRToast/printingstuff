@@ -4,7 +4,10 @@
 
 ### 1. a)
 
-Zu häufig vorkommende und damit überflüssige Informationen.
+Entweder  
+- zu häufig vorkommende und damit überflüssige Informationen  
+oder
+- Redundanz als Backup verstanden.
 
 ### 1. b)
 
