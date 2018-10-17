@@ -29,31 +29,31 @@ siehe Bild
 
 ### 2. a)
 
-π<sub>Stadt</sub> ((((σ<sub>Warenname="Muttern"</sub> (Waren)) ⋈<sub>Warennr</sub> (Einzelbestellungen)) ⋈<sub>Bestellnr</sub> (Bestellungen)) ⋈<sub>Kundennr</sub> (Kunden))
+π<sub>Stadt</sub> ((((σ<sub>Warenname="Muttern"</sub>(WAREN)) ⋈<sub>Warennr</sub>(EINZELBESTELLUNGEN)) ⋈<sub>Bestellnr</sub>(BESTELLUNGEN)) ⋈<sub>Kundennr</sub>(KUNDEN))
 
 Ergebnis: Rosenheim & Ulm
 
 ### 2. b)
 
-π<sub>Warennr</sub> (σ<sub>Kundennr="C5"</sub> (BESTELLUNGEN) ⋈<sub>Bestellnr</sub> (EINZELBESTELLUNGEN))
+π<sub>Warennr</sub> (σ<sub>Kundennr="C5"</sub>(BESTELLUNGEN) ⋈<sub>Bestellnr</sub>(EINZELBESTELLUNGEN))
 
 Ergebnis: S1
 
 ### 2. c)
 
-π<sub>Waren</sub> (σ<sub>Menge > 150</sub> (EINZELBESTELLUNGEN) ⋈<sub>Warennr</sub> (WAREN))
+π<sub>Waren</sub> (σ<sub>Menge > 150</sub>(EINZELBESTELLUNGEN) ⋈<sub>Warennr</sub>(WAREN))
 
 Ergebnis: Schrauben & Nägel
 
 ### 2. d)
 
-π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier"</sub>(KUNDEN) ⋃ σ<sub>Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub> (BESTELLUNGEN))
+π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier"</sub>(KUNDEN) ⋃ σ<sub>Kundenname="Müller"</sub>(KUNDEN) ⋈<sub>Kundennr</sub>(BESTELLUNGEN))
 
 Ergebnis: O1 & O2
 
 ### 2. e)
 
-π<sub>Warenname</sub> (((σ<sub>Kundenname="Meier" ⋃ Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub>  (BESTELLUNGEN)) ⋈<sub>Bestellnr</sub> (EINZELBESTELLUNGEN)) ⋈<sub>Warennr</sub> (WAREN))
+π<sub>Warenname</sub> (((σ<sub>Kundenname="Meier"</sub>(KUNDEN) ⋃ σ<sub>Kundenname="Müller"</sub>(KUNDEN) ⋈<sub>Kundennr</sub>(BESTELLUNGEN)) ⋈<sub>Bestellnr</sub>(EINZELBESTELLUNGEN)) ⋈<sub>Warennr</sub>(WAREN))
 
 Ergebnis: Muttern, Nägel & Schrauben
 
