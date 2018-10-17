@@ -47,7 +47,7 @@ Ergebnis: Schrauben & Nägel
 
 ### 2. d)
 
-π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier" ⋃ Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub> (BESTELLUNGEN))
+π<sub>Bestellnr</sub> (σ<sub>Kundenname="Meier"</sub>(KUNDEN) ⋃ σ<sub>Kundenname="Müller"</sub> (KUNDEN) ⋈<sub>Kundennr</sub> (BESTELLUNGEN))
 
 Ergebnis: O1 & O2
 
